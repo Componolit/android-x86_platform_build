@@ -105,7 +105,7 @@ PRODUCT_SYSTEM_SERVER_JARS := \
     wifi-service
 
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
-    ro.zygote=zygote32
+    ro.zygote=zygote64
 PRODUCT_COPY_FILES += \
     system/core/rootdir/init.zygote32.rc:root/init.zygote32.rc
 
